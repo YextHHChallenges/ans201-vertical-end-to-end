@@ -68,14 +68,26 @@
       "source": "KNOWLEDGE_MANAGER"
     }
   },
-  "autocomplete": {
-    "disablePopularQueries": false,
-    "hardcodedPrompts": [
+  "querySuggestions": {
+    "popularQueriesBlacklistedTerms": [],
+    "universalPrompts": [
       "Restaurants near me",
       "Do you offer delivery?",
       "Events",
       "Do you sell gift cards?"
-    ]
+    ],
+    "verticalPrompts": {
+      "faqs": [
+        "[[name]]"
+      ],
+      "events": [
+        "[[name]]"
+      ],
+      "restaurants": [
+        "Restaurants near me",
+        "Restaurants in [[address.city]]"
+      ]
+    }
   },
   "synonyms": {
     "oneWay": [
