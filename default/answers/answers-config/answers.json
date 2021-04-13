@@ -34,8 +34,8 @@
         "keywords": {
           "textSearch": true
         },
-        "name": {
-          "textSearch": true
+        "question": {
+          "semanticTextSearch": true
         }
       },
       "sortBys": [],
